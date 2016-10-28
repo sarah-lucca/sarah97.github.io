@@ -141,7 +141,7 @@
         var selectedMode = document.getElementById('mode').value;
         directionsService.route({
           origin: {lat: currentPosition_lat, lng: currentPosition_lng},  // current location
-          destination: {lat: 37.785636, lng: -122.397119},  // ClickTime 
+          destination: {lat: 33.8121, lng: -117.9190},  // Disney Land 
           travelMode: google.maps.TravelMode[selectedMode]
         }, function(response, status) {
           if (status == 'OK') {
