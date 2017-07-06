@@ -1,7 +1,4 @@
-<style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
+ #map {
         height: 100%;
       }
       /* Optional: Makes the sample page fill the window. */
@@ -28,23 +25,30 @@
         line-height: 30px;
         padding-left: 10px;
       }
-
       #right-panel select, #right-panel input {
         font-size: 15px;
       }
-
       #right-panel select {
         width: 100%;
       }
-
       #right-panel i {
         font-size: 12px;
       }
       #right-panel {
+        background-color: #d3f0ff;
+        text-align: center;
         height: 100%;
         float: right;
         width: 390px;
         overflow: auto;
+      }
+      #placeholder {
+        font-weight: medium;
+        background-color: white;
+        padding: 3px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 3px;
       }
       #map {
         margin-right: 400px;
@@ -68,4 +72,5 @@
           width: auto;
         }
       }
-    </style>
+    
+  
